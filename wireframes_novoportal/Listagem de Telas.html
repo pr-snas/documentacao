@@ -1,0 +1,163 @@
+<HTML><HEAD><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta http-equiv="imagetoolbar" content="no"><link href="Resources/axurerppage.css" type="text/css" rel="stylesheet"></HEAD><BODY>
+<script type="text/javascript">
+function InitializeSubmenu(submenucontainerid, tablecellroid, tablecellid, fname) { 
+var s = "";
+s = s + "function " + fname + "() { ";
+s = s + "document.getElementById(submenucontainerid).style.visibility='';";
+s = s + "BringToFront(submenucontainerid);";
+s = s + "}";
+if ((index = navigator.userAgent.indexOf("MSIE")) >= 0)
+s = s + "document.getElementById('" + tablecellid + "').attachEvent(\"onmouseover\", " + fname + ");";
+else
+s = s + "document.getElementById('" + tablecellid + "').addEventListener(\"mouseover\", " + fname + ", true);";
+s = s + "document.getElementById(tablecellroid).onclick = function() {";
+s = s + "if( document.createEvent ) {";
+s = s + "var evObj = document.createEvent('MouseEvents');";
+s = s + "evObj.initEvent( 'click', true, false );";
+s = s + "document.getElementById(tablecellid).dispatchEvent(evObj);";
+s = s + "} else if( document.createEventObject ) {";
+s = s + "document.getElementById(tablecellid).fireEvent('onclick');";
+s = s + "}";
+s = s + "}";
+eval(s);
+}
+</script>
+
+<DIV id=ou0 style="position:absolute; left:10px; top:10px; width:1021px; height:161px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:1029px; height:169px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Listagem de Telas_files/u0.png',sizingMethod='scale');
+"><img style="width:1029px; height:169px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Listagem de Telas_files/u0.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u0container style="position:absolute; left:10px; top:10px; width:1021px; height:161px;; overflow:visible">
+
+<DIV id=u1 style="position:absolute; left:2px; top:72px; width:1016px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u1_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u0 src="Resources/transparent.gif" style="position:absolute; left:10px; top:10px; width:1020px; height:160px"  >
+
+<DIV id=u2 style="position:absolute; left:34px; top:46px; width:666px; height:86px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u2_rtf><span style=" font-family:'Arial'; color:#FFFFFF; font-size:28pt;"><b>Projeto:</b></span><br><span style=" font-family:'Arial'; color:#FF6600; font-size:28pt;">Portal da Participação Social</span></DIV></DIV>
+<DIV id=ou3 style="position:absolute; left:10px; top:170px; width:1021px; height:51px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:1029px; height:59px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Listagem de Telas_files/u3.png',sizingMethod='scale');
+"><img style="width:1029px; height:59px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Listagem de Telas_files/u3.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u3container style="position:absolute; left:10px; top:170px; width:1021px; height:51px;; overflow:visible">
+
+<DIV id=u4 style="position:absolute; left:2px; top:17px; width:1016px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u4_rtf><span style=" color:#333333; font-size:10pt;">&nbsp; &nbsp; &nbsp; Última revisão por Fabiano Rangel Cidade (fabiano.rangel@gmail.com) em 11/09/2013</span></DIV></DIV>
+</DIV>
+<IMG id=u3 src="Resources/transparent.gif" style="position:absolute; left:10px; top:170px; width:1020px; height:50px"  >
+
+<DIV id=ou5 style="position:absolute; left:10px; top:220px; width:1021px; height:471px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:1029px; height:479px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Listagem de Telas_files/u5.png',sizingMethod='scale');
+"><img style="width:1029px; height:479px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Listagem de Telas_files/u5.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u5container style="position:absolute; left:10px; top:220px; width:1021px; height:471px;; overflow:visible">
+
+<DIV id=u6 style="position:absolute; left:2px; top:227px; width:1016px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u6_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u5 src="Resources/transparent.gif" style="position:absolute; left:10px; top:220px; width:1020px; height:470px"  >
+
+<DIV id=u7 style="position:absolute; left:36px; top:248px; width:250px; height:29px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u7_rtf><span style=" font-family:'Arial'; color:#000000; font-size:18pt;"><b>Interfaces do Projeto</b></span></DIV></DIV>
+<INPUT id=u8  type=submit value="Home" style="position:absolute; left:40px; top:320px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u9  type=submit value="Artigo" style="position:absolute; left:240px; top:320px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u10  type=submit value="Registro na Rede" style="position:absolute; left:440px; top:320px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u11  type=submit value="Criando Processo PS" style="position:absolute; left:640px; top:320px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u12  type=submit value="Priorização de Idéias" style="position:absolute; left:840px; top:320px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u13  type=submit value="Texto em Consulta" style="position:absolute; left:40px; top:380px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u14  type=submit value="Página de Busca" style="position:absolute; left:240px; top:380px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u15  type=submit value="Perfil na Rede" style="position:absolute; left:440px; top:380px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u16  type=submit value="Comunidade" style="position:absolute; left:640px; top:380px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u17  type=submit value="Mega Menu" style="position:absolute; left:840px; top:380px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u18  type=submit value="Página Temática PS" style="position:absolute; left:40px; top:440px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<DIV id=ou19 style="position:absolute; left:920px; top:100px; width:101px; height:101px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:109px; height:109px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Listagem de Telas_files/u19.png',sizingMethod='scale');
+"><img style="width:109px; height:109px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Listagem de Telas_files/u19.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u19container style="position:absolute; left:920px; top:100px; width:101px; height:101px;; overflow:visible">
+
+<DIV id=u20 style="position:absolute; left:2px; top:42px; width:96px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u20_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u19 src="Resources/transparent.gif" style="position:absolute; left:920px; top:100px; width:100px; height:100px"  >
+
+<INPUT id=u21  type=submit value="Criando Comunidade" style="position:absolute; left:240px; top:440px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u22  type=submit value="Logando na Rede" style="position:absolute; left:440px; top:440px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<DIV id=ou23 style="position:absolute; left:10px; top:690px; width:1021px; height:61px;; overflow:visible">
+
+<span style="position:absolute; left:-3px; top:-3px; width:1029px; height:69px; ;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='Listagem de Telas_files/u23.png',sizingMethod='scale');
+"><img style="width:1029px; height:69px; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);" 
+src="Listagem de Telas_files/u23.png" border="0" alt=""></span>
+
+</DIV>
+<DIV id=u23container style="position:absolute; left:10px; top:690px; width:1021px; height:61px;; overflow:visible">
+
+<DIV id=u24 style="position:absolute; left:2px; top:22px; width:1016px; height:16px; ; ; text-align: center ; font-family:Arial; text-align:left;" >
+<DIV id=u24_rtf>&nbsp;</DIV></DIV>
+</DIV>
+<IMG id=u23 src="Resources/transparent.gif" style="position:absolute; left:10px; top:690px; width:1020px; height:60px"  >
+
+<DIV id=u25 style="position:absolute; left:20px; top:707px; width:1000px; height:24px; ; ; text-align: left ; font-family:Arial; text-align:left;" >
+<DIV id=u25_rtf><div style="text-align:center"><span style=" font-family:'Arial'; color:#FF6600; font-size:16pt;">http://psocial.sg.gov.br/</span></div></DIV></DIV>
+<INPUT id=u26  type=submit value="Arquivo de Notícias" style="position:absolute; left:640px; top:440px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u27  type=submit value="Aba Blog" style="position:absolute; left:840px; top:440px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u28  type=submit value="Aba Pessoas/usuários" style="position:absolute; left:40px; top:500px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u29  type=submit value="Aba Mapa" style="position:absolute; left:240px; top:500px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u30  type=submit value="Aba Vídeos" style="position:absolute; left:440px; top:500px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u31  type=submit value="Aba Vídeos - thickbox" style="position:absolute; left:640px; top:500px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u32  type=submit value="Aba Tags" style="position:absolute; left:840px; top:500px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u33  type=submit value="Aba Comunidade" style="position:absolute; left:40px; top:560px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u34  type=submit value="Aba Comentários" style="position:absolute; left:240px; top:560px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u35  type=submit value="Aba Mapa Home + B1B2" style="position:absolute; left:440px; top:560px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 10pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u36  type=submit value="Texto em Consulta 2" style="position:absolute; left:640px; top:560px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u37  type=submit value="Logado: Perfil na Rede" style="position:absolute; left:840px; top:560px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u38  type=submit value="Perfil - Menu Logado" style="position:absolute; left:40px; top:620px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u39  type=submit value="Busca Avançada" style="position:absolute; left:240px; top:620px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 12pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+
+<INPUT id=u40  type=submit value="Painel Admin Interno" style="position:absolute; left:440px; top:620px; width:170px; height:40px; ; ; text-align: center ; font-family:'Arial'; font-size: 11pt; color:#000000; font-style:normal; font-weight:bold; text-decoration:none" >
+<SCRIPT src="Resources/axurerp_pagescript.js"></SCRIPT>
+<SCRIPT src="Listagem de Telas_files/axurerp_pagespecificscript.js"></SCRIPT></BODY></HTML>
